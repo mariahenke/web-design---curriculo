@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap');
+
+body{
+    background-image:url(fundo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu{
+    display: flex;
+    gap:50px;
+    font-size:16px;
+    margin-top:45px;
+    margin-left:45px;
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.contato{
+    font-weight: 600;
+}
+.sobremim:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+.contato:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+.home:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+.contatos{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 200;
+    color: white;
+    font-size: 14px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+ .caixas_contatos{
+  width: 350px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.icone_caixa {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icone {
+  width: 32px;
+  height: 32px;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;;
+}
+
+.icone.linkedin {
+  background-image: url("linkedin.png");
+}
+
+.icone.email {
+  background-image: url('email.png');
+}
+
+.icone.github {
+  background-image:  url('github.png');
+}
+
+.contato_caixa {
+  flex: 1;
+  border: 1px solid #dba3ec;
+  padding: 8px 12px;
+  color: white;
+  background: transparent;
+  font-size: 16px;
+}
